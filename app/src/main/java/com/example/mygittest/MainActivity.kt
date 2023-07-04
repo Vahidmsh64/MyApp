@@ -14,9 +14,11 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
 
         }
-        // aaa
+        
     }
-
+private fun sum(){
+    
+}
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
