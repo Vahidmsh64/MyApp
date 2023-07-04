@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.example.mygittest.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private var _binding:ActivityMainBinding? = null
+    private var _binding: ActivityMainBinding? = null
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,11 +14,13 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
 
         }
-        
+
     }
-private fun sum(){
-    
-}
+
+    private fun sum() {
+
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
